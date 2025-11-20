@@ -8,7 +8,7 @@
 int main(int argc, char* argv[]) {
     // 解析命令行参数
     int port = 8000;
-    std::string host = "127.0.0.1";
+    std::string host = "0.0.0.0";
 
     if (argc > 1) {
         std::string endpoint = argv[1];

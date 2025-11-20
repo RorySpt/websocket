@@ -10,9 +10,3 @@ if (NOT TARGET libhv)
     )
     target_link_libraries(libhv_md INTERFACE hv_static)
 endif ()
-
-if (NOT TARGET bimap)
-
-    add_library(bimap INTERFACE)
-    target_include_directories(bimap INTERFACE bimap)
-endif ()
