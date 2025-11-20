@@ -60,7 +60,7 @@ struct SignalingServer::Impl
     synchronized<clients_t> clients_;
 };
 SignalingServer::SignalingServer(int port, const std::string& host)
-    : impl_(std::make_unique<Impl>())
+    : impl_(std::make_shared<Impl>())
 {
     impl_->port_ = port;
     impl_->host_ = host;
