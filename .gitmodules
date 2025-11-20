@@ -1,0 +1,6 @@
+[submodule "deps/libhv"]
+	path = deps/libhv
+	url = git@github.com:RorySpt/libhv.git
+[submodule "deps/bimap"]
+	path = deps/bimap
+	url = git@github.com:LarsHagemann/bimap.git
